@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Gallery</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/gallery.css">
+    </head>
+    
+    <body>
+        
+        <!--Our Navbar (Tons Of Code, But You'll CopyPasta For The Most Part-->
+        <nav class="navbar navbar-inverse navbar-fixed-top"> <!--navbar-default gives you the white color, 'inverse' gives black-->
+            <div class="container"> 
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <!--The Three Spans Below Make The Bars Of That 'Image'. It isn't an image like I thought.-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"> <i class="fa fa-lightbulb-o" aria-hidden="true"></i> lightCanvas</a>
+                </div>
+                <!-- You can use 'ul' or 'div' for the container below -->
+                <div class="collapse navbar-collapse" id="bs-nav-demo">
+                    <ul class="nav navbar-nav">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Welcome To lightCanvas</h1>
+                <p id="tagLine">A bunch of beautiful images that I didn't take (but wish I did)</p>
+                <p id="thanks">*Courtesy To The Artists at <a href="https://unsplash.com/">Unsplash</a> for these images</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/ZsiVhiNDnsQ/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/iyrJnPlkP68/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/IE_sifhay7o/">
+                    </div>
+                </div>
+                
+                <!-- NOTE: For the one below for some reason this pic (3N5ccOE3wGg) "pushes" the one below it down. I replaced it with another.-->
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/Mn9Fa_wQH-M/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/Mn9Fa_wQH-M/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/BduDcrySLKM/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/UEWIfiHGxxQ/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/HlNcigvUi4Q/">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://source.unsplash.com/NiOFfplU2es/">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Our JS Tags (Remember That The jQuery script goes BEFORE of the Bootstrap JS script-->
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+</html>

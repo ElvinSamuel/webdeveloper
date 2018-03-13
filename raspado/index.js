@@ -1,0 +1,1 @@
+console.log("Flag Of Panama!");

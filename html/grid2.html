@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Bootstrap Grid System</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        
+        
+        <style type="text/css">
+            .holder {
+                background-color: Silver;
+            }
+            .event {
+                /*background: WhiteSmoke;*/
+                /*border: 1px grey solid;*/
+            }
+            
+            .info {
+                background-color: AliceBLue;
+                border: 1px solid LightSteelBlue;
+                margin: 2% 0;
+                padding: 5%;
+            }
+            
+            .day {
+                font-size: 30px;
+                font-family: Merriweather;
+                font-style: italic;
+                text-align: center;
+            }
+            
+            .monthYear {
+                font-size: 11px;
+                font-weight: bold;
+                font-family: Merriweather;
+                font-style: italic;
+                text-align: center;
+            }
+            
+            hr {
+                width: 60%;
+                border-color: LightSteelBlue;
+            }
+            
+            .city {
+                color: LightSteelBlue;
+                font-size: 11px;
+                text-align: center;
+                font-family: Merriweather;
+                font-style: italic;
+            }
+            
+            .location {
+                font-size: 13px;
+                font-weight: bold;
+                text-align: center;
+                font-family: Merriweather;
+                font-style: italic;
+                word-spacing: 1px;
+            }
+            
+             .btn-group-justified {
+                background-color: WhiteSmoke;
+                border: 1px LightSteelBlue solid;
+                font-style: italic;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--======================================-->
+        <!--              Objectives              -->
+        <!-- 1. Understand Purpose of Grid System -->
+        <!-- 2. Understand The 4 Different Sizes  -->
+        <!-- 3. Write Nested Grids                -->
+        <!--======================================-->
+        <div class="holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 event">
+                        <div class="info">
+                            <p class="day">29</p>
+                            <p class="monthYear">October 2017</p>
+                            <hr>
+                            <p class="city">Seoul, South Korea</p>
+                            <p class="location">Baek Yang Hall</p>
+                            <button class="btn btn-group-justified buyTix">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 event">
+                        <div class="info">
+                            <p class="day">31</p>
+                            <p class="monthYear">October 2017</p>
+                            <hr>
+                            <p class="city">Okinawa, Japan</p>
+                            <p class="location">Nissan Stadium</p>
+                            <button class="btn btn-group-justified buyTix">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 event">
+                        <div class="info">
+                            <p class="day">5</p>
+                            <p class="monthYear">January 2018</p>
+                            <hr>
+                            <p class="city">London, UK</p>
+                            <p class="location">Wembley Stadium</p>
+                            <button class="btn btn-group-justified buyTix">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 event">
+                        <div class="info">
+                            <p class="day">17</p>
+                            <p class="monthYear">March 2018</p>
+                            <hr>
+                            <p class="city">Baku, Azerbaijan</p>
+                            <p class="location">Bakcell Arena</p>
+                            <button class="btn btn-group-justified buyTix">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!--<div class="row">-->
+                <!--    <div class="col-lg-1 col-md-2 goldenrod">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 sienna">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 goldenrod">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 sienna">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 goldenrod">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 sienna">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 goldenrod">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 sienna">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 goldenrod">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 sienna">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 goldenrod">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 sienna">COL LG 1</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </body>
+</html>

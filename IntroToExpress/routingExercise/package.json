@@ -1,0 +1,19 @@
+{
+  "name": "routingexercise",
+  "version": "1.0.0",
+  "description": "Routing Exercise, Learning To Create An App With NPM & Express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Routing",
+    "Exercise",
+    "Node.js"
+  ],
+  "author": "Elvin M. Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

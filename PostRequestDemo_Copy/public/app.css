@@ -1,0 +1,34 @@
+body {
+    background: MidnightBlue;
+    color: WhiteSmoke;
+    font-family: Raleway;
+}
+
+div {
+    width: 60%;
+    margin: 0 auto;
+    background: LightSteelBlue;
+    padding: 10px;
+}
+
+h2 {
+    background: grey;
+    padding: 5px;
+}
+
+p {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/*Centering the form*/
+form {
+    display: inline-block;
+    margin: 0 auto;
+    background: LightGrey;
+    padding: 5px;
+}
+
+form input, button {
+    padding: 5px;
+}

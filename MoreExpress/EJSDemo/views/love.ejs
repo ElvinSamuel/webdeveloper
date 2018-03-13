@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<link type="text/css" rel="stylesheet" href="/app.css">
+
+<!--This Is Why EJS Is Different, The <%= %> Notation Let's You Use Variables In HTML Code.-->
+<% if(thingVar.toLowerCase() === "rusty") { %>
+    <p>Good Choice!</p>
+<% } else { %>
+    <p>Bad Choice, Rusty Is The Best</p>
+<% } %>
+<h1>You Fell In Love With: <%=thingVar%></h1>
+
+<p>P.S. This Is From The Love.EJS File</p>
+
+<% include partials/footer %>

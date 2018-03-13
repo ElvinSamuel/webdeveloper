@@ -1,0 +1,40 @@
+/*For The Fixed Nav Bar In The Gallery.html page Bootstrap Will Tell You To Add Padding To The Body*/
+body {
+    padding-top: 70px;
+    background: #ECF0F1;
+}
+
+.navbar-inverse {
+    background:#2C3E50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+h1, p {
+    text-align: center;
+}
+
+.jumbotron {
+    /*background: OliveDrab;*/
+    background: #ECF0F1;
+    color: #2C3E50;
+    /*color: OldLace;*/
+}
+
+#cameraPic {
+    padding: 0 10px 0 15px;
+}
+
+#thanks {
+    font-size: .85em;
+}
+
+#tagLine {
+    font-size: 1.2em;
+    text-transform: capitalize;
+}

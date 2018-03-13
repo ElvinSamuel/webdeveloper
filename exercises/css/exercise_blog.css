@@ -1,0 +1,49 @@
+/*
+    the border color: #BDC3C7
+    the date color: 3498DB
+    the h2 color #2C3E50
+    
+    font: source-sans-pro (Google Font)
+*/
+
+/*I organized everything into a class system in case there were additional posts*/
+
+body{
+    width: 65%;
+    border: 15px #BDC3C7 solid;
+    padding: 0 2% 0 2%;
+    margin: 0 auto;
+    font-family: source sans pro;
+    font-weight: bold;
+}
+
+.posts {
+    /*Separating each posting with a container of its own*/
+    background-color: WhiteSmoke;
+}
+
+
+.dates {
+    color: #3498DB;
+    letter-spacing: 2px;
+}
+
+.titles {
+    word-spacing: 3px;
+    font-weight: 800;
+}
+
+.quotes {
+    border-left: 5px #BDC3C7 solid;
+    padding: 1%;
+}
+
+p {
+    font-size: 13px;
+}
+
+hr {
+    height: 1px;
+    background-color: #BDC3C7;
+}
+

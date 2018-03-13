@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="jquery.panelSnap.js"></script>
+    <script>
+      jQuery(function($) {
+        $('body').panelSnap();
+      });
+    </script>    
+    <script>
+      jQuery(function($) {
+        var options = {
+          $menu: $('header .menu')
+        };
+
+        $('.panel_container').panelSnap(options);
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <a href="/first" data-panel="first">First</a>
+        <a href="/second" data-panel="second">Second</a>
+        <a href="/third" data-panel="third">Third</a>
+      </div>
+    </header>
+    <div class="panel_container">
+      <section data-panel="first">
+        ...
+      </section>
+      <section data-panel="second">
+        ...
+      </section>
+      <section data-panel="third">
+        ...
+      </section>
+    </div>
+  </body>
+</html>

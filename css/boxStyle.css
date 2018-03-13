@@ -1,0 +1,21 @@
+p {
+    
+/*Content - Width & Height*/
+    width: 200px;
+    /*height: 50px;*/
+/*Borders*/
+    border: 2px solid blue;
+/*Padding*/
+    /*padding: 10px;*/
+    padding-left: 40px;
+    padding-top: 20px;
+/*Margin*/
+    /*margin: 100px;*/
+    /*margin-top: 20px;*/
+    margin: 20px 40px 80px 160px;
+    /*Above: top, right, bottom, left*/
+    
+    /*You've seen 'auto' alot too. This centers things from the parent element*/
+    margin: 0 auto;
+    /*Above: so 0 for top/bottom, centered for left/right */
+}

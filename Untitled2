@@ -1,0 +1,24 @@
+var mongoose = require("mongoose");
+mongoose.connect("mongodb://localhost/cat_app");
+
+var catSchema = new mongoose.Schema({
+    name: String,
+    age: Number,
+    breed: String
+});
+
+var Cat = mongoose.model("Cat", catSchema);
+
+var furball = new Cat({ 
+    name: "Rex",
+    age: 4,
+    breed: "Jerk"
+});
+
+furball.save(function(err, cat){
+    if(err){
+        console.log("Furball Didn't Make It In! Don't Worry, He Sucks Anyway")
+    } else {
+        console.log("Furball Made It In. Great...");
+    }
+});

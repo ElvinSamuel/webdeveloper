@@ -1,0 +1,22 @@
+{
+  "name": "moviesearchapp_copy",
+  "version": "1.0.0",
+  "description": "Copy of the Movie Search App (building the muscle memory)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Copy",
+    "Movie",
+    "Search",
+    "App"
+  ],
+  "author": "Elvin M. Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}

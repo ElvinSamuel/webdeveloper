@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Basics</title>
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css" />
+        <style type="text/css">
+            .btn-danger {
+                background-color: BlanchedAlmond;
+                border-color: Chartreuse;
+                /*Changing the text color*/
+                color: DarkGoldenRod;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--<h1>Boostrap Basics</h1>-->
+        
+        <!--Let's Mess With Buttons First-->
+        <!--NOTE: In Bootstrap, Buttons Can Be 'a' Or Even 'input'tags. Just inlcude the button class-->
+        <!--<button class="btn btn-success btn-xs active">Click Me</button>-->
+        <!--<button class="btn btn-success btn-xs" disabled="disabled">Click Me</button>-->
+        <!--<button class="btn btn-success btn-xs btn-danger">Click Me</button>-->
+        <!--<a href="http://www.getbootstrap.com" class="btn btn-info btn-lrg">Bootstrap Docs</a>-->
+        
+        <!--Messin' With Jumbotrons-->
+        <!--<div class="jumbotron">-->
+        <!--    <h1>This Is A Jumbotron</h1>-->
+        <!--    <p>Fingerstache pabst vexillologist bitters shoreditch meggings. Skateboard food truck lumbersexual, kale chips sustainable YOLO XOXO flannel man braid cornhole. Hashtag tbh microdosing, fingerstache pickled succulents palo santo master cleanse lyft meh activated charcoal selvage.</p>-->
+        <!--    <button class="btn btn-success btn-lg">PBR!</button>-->
+        <!--</div>-->
+        
+        <!--Div Container's - Gives us Some Padding-->
+        <div class="container">
+            <div class="jumbotron">
+            <h1>This Is A Jumbotron</h1>
+            <p>Fingerstache pabst vexillologist bitters shoreditch meggings. Skateboard food truck lumbersexual, kale chips sustainable YOLO XOXO flannel man braid cornhole. Hashtag tbh microdosing, fingerstache pickled succulents palo santo master cleanse lyft meh activated charcoal selvage.</p>
+            <button class="btn btn-success btn-lg">PBR!</button>
+            </div>
+            <h1>Boostrap Basics</h1>
+            
+            <!--Let's Mess With Buttons First-->
+            <!--NOTE: In Bootstrap, Buttons Can Be 'a' Or Even 'input'tags. Just inlcude the button class-->
+            <button class="btn btn-success btn-xs active">Click Me</button>
+            <button class="btn btn-success btn-xs" disabled="disabled">Click Me</button>
+            <button class="btn btn-success btn-xs btn-danger">Click Me</button>
+            <a href="http://www.getbootstrap.com" class="btn btn-info btn-lrg">Bootstrap Docs</a>
+            
+        <!--Let's Mess With Some Forms Too-->
+        <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        
+    </body>
+</html>

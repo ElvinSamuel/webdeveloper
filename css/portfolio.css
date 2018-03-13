@@ -1,0 +1,23 @@
+#frontScreen {
+    text-align: center;
+    padding-top: 25%;
+    color: WhiteSmoke;
+    font-family: Cinzel;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+hr {
+    width: 50%;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/5LOhydOtTKU");
+}
+
+html {
+    height: 100%;
+}

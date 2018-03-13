@@ -1,0 +1,15 @@
+<h1>Friends List Goes Here!</h1>
+
+<% friends.forEach(function(friend){ %>
+    <li><%= friend%></li>
+<% }); %>
+
+<!--Let's Add Our Form To This Page-->
+<!--
+    Don't Forget "action" & "method" are important
+    "name" is the actual identifier we'll use to link to our request in app.js
+-->
+<form action="/addFriend" method="POST">
+    <input type="text" name="newfriend" placeholder="Enter Friend's Name Here">
+    <button>I Made A New Friend!</button>
+</form>

@@ -1,0 +1,26 @@
+{
+  "name": "raspado",
+  "version": "1.0.0",
+  "description": "Simple NPM Package That Adds The Panamanian Flag To Your App (ASCII).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvinSamuel/respado.git"
+  },
+  "keywords": [
+    "Raspado",
+    "Panama",
+    "NPM",
+    "Package",
+    "JavaScript"
+  ],
+  "author": "Elvin Samuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElvinSamuel/respado/issues"
+  },
+  "homepage": "https://github.com/ElvinSamuel/respado#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "packagejsondemo",
+  "version": "1.0.0",
+  "description": "Simple JSON Demo, Understanding Package.json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elvin Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

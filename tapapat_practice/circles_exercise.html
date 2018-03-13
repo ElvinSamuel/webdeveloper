@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Circles</title>
+        <script type="text/javascript" src="paper-full.js"></script>
+        <script type="text/paperscript" canvas="myCanvas"></script>
+        
+        <link rel="stylesheet" type="text/css" href="circles.css">
+        
+        <script type="text/paperscript" canvas="myCanvas">
+        // 	var x = -50, y = -50;
+        //     var arr = [];
+            
+        //     for(var i = 0; i < 10; i++){
+        //         y = y + 50;
+                
+        //         for(var j = 0; j < 10; j++){
+        //             x = x + 50;
+        //             arr.push([x, y]);
+        //         }
+                
+        //         /*Reset x -- like a typewriter*/
+        //         x = -50;
+        //     }
+        //     // var arr = [[0, 0], [50,50], [100, 100]];
+            
+        //     arr.forEach(function(point, index){
+        //         myCircle = new Path.Circle(new Point(point), 10);
+                
+        //         /*Let's change the color, adding a gradient-like effect*/
+        //         var color = new Color(.6, .3, .4);
+        //         /*
+        //         Below: basically each new 'addition' to the canvas
+        //         will be 1/200th (.02) lighter per red, green, then blue.
+        //         */
+        //         var result = color + (index / 200);
+                
+        //         myCircle.fillColor = result;    
+        //     });
+        
+        
+        /*Colt's Solution*/
+        for(var x = 0; x < 1000; x+= 100){
+            for(var y = 0; y < 1000; y+= 100){
+                var circle = new Path.Circle(new Point(x, y), 10);
+                
+                /*=========*/
+                /*This part (for the color gradient) is from me*/
+                var color = new Color(.6, .3, .4);
+                var result = color + (y / 1000);
+                /*==========*/
+                
+                circle.fillColor = result;
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <canvas id="myCanvas" resize></canvas>
+    </body>
+</html>

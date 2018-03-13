@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Experimental PaperJS</title>
+        
+        <!--Paperscript/Paper.js Reference-->
+        <script type="text/javascript" src="paper-full.js"></script>
+        <script type="text/paperscript" canvas="myCanvas"></script>
+    </head>
+    
+    <body>
+        <h1>Experimenting With PaperJS Documentation</h1>
+        
+        
+        <script type="text/paperscript" canvas="myCanvas">
+            var myCircle = new Path.Circle(new Point(250, 100), 70);
+            
+            /*Let's mess with the color*/
+            var color = new Color(190, 225, 225);
+            var result = color - 190;
+            
+            myCircle.fillColor = result;
+            
+            
+            
+            // var rectangle = new Rectangle(new Point(10, 50), new Point(150, 150));
+            // var path = new Path.Rectangle(rectangle);
+            // path.fillColor = "#00A";
+            // path.selected = true; 
+            
+            // var rectangle = new Rectangle(new Point(50, 50), new Point(150, 100));
+            // var cornerSize = new Size(20, 20);
+            // var path = new Path.RoundRectangle(rectangle, cornerSize);
+            // path.fillColor= "Grey";
+            
+            
+            // /*Basic Animation: Spinning Square*/
+            // var path = new Path.Rectangle({
+            //     point: [75, 75],
+            //     size: [75, 75],
+            //     strokeColor: "red"
+            // });
+            
+            // var newPath = new Path.Rectangle({
+            //     point: [102.5, 75],
+            //     size: [25, 25],
+            //     strokeColor: "black"
+            // });
+            
+            // function onFrame(event){
+            //     // Rotates by 3 degrees each frame
+            //     path.rotate(1);
+            //     newPath.rotate(1);
+            // }
+            
+            // var x = -25, y = -25;
+            // var arr = [];
+            
+            // for(var i = 0; i < 10; i++){
+                
+            //     y = y + 100;
+                
+            //     for(var j = 0; j < 10; j++){
+            //         x = x + 100;
+            //         arr.push([x, y]);
+            //     }
+                
+            //     /*Reset x -- like a typewriter*/
+            //     x = -25;
+            // }
+            
+            // // var arr = [[0, 0], [50,50], [100, 100]];
+            
+            // arr.forEach(function(point){
+            //     myCircle = new Path.Circle(new Point(point), 10);
+            //     myCircle.fillColor = 'Aqua';    
+            // });
+            
+        </script>
+        
+        
+        <canvas id="myCanvas" style="width: 1000px; background-color: black" resize></canvas>
+    </body>
+</html>

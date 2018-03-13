@@ -1,0 +1,40 @@
+#one {
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+
+#two {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: DarkGoldenRod;
+}
+
+#three {
+    float: right;
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+}
+
+#four {
+    float: right;
+    width: 25%;
+    height: 50%;
+    background-color: white;
+}
+
+#five {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: BurlyWood;
+}
+
+#six {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: BlanchedAlmond;
+}

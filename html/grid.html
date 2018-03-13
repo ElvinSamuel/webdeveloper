@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Bootstrap Grid System</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        
+        <style type="text/css">
+            .cadet {
+                background: CadetBlue;
+                border: 2px solid WhiteSmoke;
+            }
+            
+            .recruit {
+                background: Peru;
+                border: 1px dashed CadetBlue;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--======================================-->
+        <!--              Objectives              -->
+        <!-- 1. Understand Purpose of Grid System -->
+        <!-- 2. Understand The 4 Different Sizes  -->
+        <!-- 3. Write Nested Grids                -->
+        <!--======================================-->
+        <div class="holder">
+            <div class="container">
+                <!--<div class="row">-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--    <div class="col-lg-1 col-md-2 cadet">COL LG 1</div>-->
+                <!--</div>-->
+                
+                <div class="row">
+                    <!--We can take out the 'col-lg-3' since we specify the medium. Bootstrap knows automatically.-->
+                    
+                    <!--Let's Get Meta With It. Put Another 'row' Inside.-->
+                    <div class="col-md-3 col-sm-6 cadet">
+                        <div class="row">
+                            <div class="col-lg-6 recruit">HALF</div>
+                            <div class="col-lg-6 recruit">OTHER HALF</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 cadet">TOUR DATE</div>
+                    <div class="col-md-3 col-sm-6 cadet">TOUR DATE</div>
+                    <div class="col-md-3 col-sm-6 cadet">
+                        <div class="row">
+                            <div class="col-xs-2 recruit">1</div>
+                            <div class="col-xs-2 recruit">2</div>
+                            <div class="col-xs-2 recruit">3</div>
+                            <div class="col-xs-2 recruit">4</div>
+                            <div class="col-xs-2 recruit">5</div>
+                            <div class="col-xs-2 recruit">6</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

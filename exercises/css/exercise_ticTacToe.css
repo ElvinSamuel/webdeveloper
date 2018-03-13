@@ -1,0 +1,37 @@
+h2 {
+    /*width: 20%;*/
+    /*margin: auto;*/
+    
+    /*
+    What I did above works, but there's an easier way.
+    You know the element already takes up the whole row, why not
+    use that to your advantage? Just center the *text* within it!
+    */
+    
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+.left {
+    border-right: 2px solid black;
+}
+
+.middleRow {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.middleColumn {
+    border-right: 2px solid black;
+}
+.bottom {
+    
+}

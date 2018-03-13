@@ -1,0 +1,15 @@
+{
+  "name": "copynodeproject",
+  "version": "1.0.0",
+  "description": "Rewriting my code from the other project(s)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elvin M. Samuel",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
